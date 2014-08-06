@@ -35,4 +35,10 @@ describe Album do
       Album.all.should eq []
     end
 
+    it 'saves the album into the alum array' do
+      my_album = Album.new({:name => "Dirty Mind"})
+      my_album.save
+      Album.all.should eq [my_album]
+    end
+
   end

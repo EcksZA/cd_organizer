@@ -10,6 +10,11 @@ class Album
     @@album
   end
 
+  def save
+    @@album << self
+  end
+
+
 
 
 
