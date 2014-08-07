@@ -13,13 +13,4 @@ class Album
   def save
     @@album << self
   end
-
-
-
-
-
-
-
-
-
 end
